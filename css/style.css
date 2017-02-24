@@ -1,0 +1,58 @@
+body {
+    background-color: #d9d9d9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    font-family: sans-serif;
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+div {
+    text-align: justify;
+}
+
+div img {
+    display: inline-block;
+    height: 100px;
+    padding: 30px
+}
+
+div a {
+    display: inline-block;
+    height: 100px;
+}
+
+div:after {
+    content: '';
+    display: inline-block;
+    width: 100%
+}
+
+img {
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+}
