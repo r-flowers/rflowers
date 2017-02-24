@@ -1,5 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #d9d9d9;
+    background-color: #A9A9A9;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav {
+    margin: auto;
+    padding: 10px;
 }
 
 ul {
@@ -17,22 +31,28 @@ a {
     font-family: sans-serif;
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #A9A9A9;
 }
 
 div {
     text-align: justify;
+    background-color: #A9A9A9;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
 
 div img {
     display: inline-block;
-    height: 100px;
-    padding: 30px
 }
 
 div a {
+    background-color: #A9A9A9;
     display: inline-block;
-    height: 100px;
+    max-height: 100%;
+    max-width: 25%;
+    padding: 30px;
 }
 
 div:after {
