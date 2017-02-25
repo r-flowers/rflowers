@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-color: #A9A9A9;
+    background-color: #d9d9d9;
 }
 
 .logo {
@@ -74,5 +74,7 @@ h1 {
 
 p {
     font-family: sans-serif;
-    text-align: center;
+    text-align: left;
+    padding: 10px;
+    margin: 5%;
 }
