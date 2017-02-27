@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-color: #d9d9d9;
+    background-color: #666699;
 }
 
 .logo {
@@ -31,12 +31,10 @@ a {
     font-family: sans-serif;
     display: block;
     padding: 8px;
-    background-color: #A9A9A9;
 }
 
 div {
     text-align: justify;
-    background-color: #A9A9A9;
 }
 
 .img-circle {
@@ -48,7 +46,6 @@ div img {
 }
 
 div a {
-    background-color: #A9A9A9;
     display: inline-block;
     max-height: 100%;
     max-width: 25%;
