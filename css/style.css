@@ -8,8 +8,8 @@ form {
 }
 
 body {
-    background-color: #242038;
-    color: #7A82AB;
+    background-color: #7A82AB;
+    color: #242038;
 }
 
 .hero {
@@ -49,7 +49,7 @@ a {
     font-family: sans-serif;
     display: block;
     padding: 8px;
-    color: #7A82AB;
+    color: #242038;
 }
 
 div {
@@ -95,10 +95,9 @@ p {
 }
 
 .profile_pic {
+    display: block;
     height: 400px;
-    margin-left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    margin: auto;
 }
 
 .final_links {
