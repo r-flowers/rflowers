@@ -3,8 +3,18 @@ html, body {
     padding: 0;
 }
 
+form {
+    text-align: center;
+}
+
 body {
-    background-color: #666699;
+    background-color: #242038;
+    color: #7A82AB;
+}
+
+.hero {
+    position: relative;
+    width: 100%
 }
 
 .logo {
@@ -12,8 +22,16 @@ body {
 }
 
 nav {
-    margin: auto;
+    margin: 10px;
     padding: 10px;
+    border: 2px;
+    color: #7A82AB;
+    background-color: #5B5B5B;
+}
+
+.text_over_image {
+    position: relative;
+    width: 100%;
 }
 
 ul {
@@ -31,6 +49,7 @@ a {
     font-family: sans-serif;
     display: block;
     padding: 8px;
+    color: #7A82AB;
 }
 
 div {
@@ -72,6 +91,16 @@ h1 {
 p {
     font-family: sans-serif;
     text-align: left;
-    padding: 10px;
-    margin: 5%;
+    padding: 5%;
+}
+
+.profile_pic {
+    height: 400px;
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.final_links {
+    padding: 5%;
 }
