@@ -21,22 +21,17 @@
         
         <p>"if you want to build a ship, don't drum up the men to gather wood, divide the work and give orders.<br> instead, teach them to yearn for the vast and endless sea." <br> -- antoine de saint-exupery</p>
         
-        <form>
-            <label>
-                <input type="text" name="usersname" placeholder="name">
-            </label>
-            <br> <br>
-            <label>
-                <input type="email" name="email" placeholder="email@ema.il">
-            </label>
-            <br> <br>
-            <label>
-                <textarea name="info" placeholder="message"></textarea>
-            </label>
-            <br> <br>
-            <input type="submit" name="submit" value="send message!">
-            <br>
-            <input type="reset" name="reset this form" value="reset form">
+        <p>send email to: contact@robinflowers.com</p>
+
+        <form action="mailto:contact@robinflowers.com" method="post" enctype="text/plain">
+            name:<br>
+            <input type="text" name="name" placeholder="name"><br>
+            email:<br>
+            <input type="text" name="mail" placeholder="email"><br>
+            comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
         </form>
         
         <div class="final_links">
