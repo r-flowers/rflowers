@@ -66,11 +66,35 @@ li a {
     display: block;
     padding: 13px 8px;
     color: #FF7700;
+    transition: 1s;
+    opacity: .75;
 }
 
 li a:hover {
     color: #CAC4CE;
     text-shadow: 0px 0px 10px #CAC4CE;
+    opacity: 1;
+}
+
+/*header button*/
+
+
+.button {
+    background-color: #FF7700;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 1s;
+    opacity: .5;
+}
+
+.button:hover {
+    color: #ff7700;
+    text-shadow: 0px 0px 10px #CAC4CE;
+    opacity: 1;
 }
 
 /*body*/
@@ -82,6 +106,7 @@ div {
 .img-circle {
     border-radius: 50%;
     border: 2px solid #000;
+    transition: 1s;
 }
 
 .img-circle:hover {
@@ -118,9 +143,18 @@ h1 {
 
 p {
     font-family: sans-serif;
-    font-size: 
-    text-align: left;
-    padding: 2% 10%;
+    font-size: 16px;
+    padding: 5%;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:hover {
+    text-shadow: 0px 0px 5px #FFF;
 }
 
 /*other pages than index*/
@@ -141,3 +175,23 @@ p {
     border-radius: 50%;
     max-height: 120px;
 }
+
+.final_img {
+    border: 2px solid #000;
+    transition: 1s;
+}
+
+.final_img:hover {
+    border: 2px solid #ff7700;
+}
+
+/* mobile */
+/*
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 20px;
+    }
+    
+    nav
+}*/
